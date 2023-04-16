@@ -3,8 +3,10 @@ pub mod sanchayan;
 
 use crate::sanchayan::Array::program_1::prog1;
 
+use crate::sanchayan::Array::program_4::prog4;
+
 fn main() {
 
-    prog1::run_prog();
+    prog4::run_prog();
 
 }
