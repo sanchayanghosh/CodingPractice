@@ -56,6 +56,21 @@ pub mod prog4 {
 
     }
 
+
+    fn element_k_search(array_to_use: &mut Vec<i32>, low: usize, high: usize) {
+
+        let K = 5;
+
+        let mut max_data = vec![3];
+
+        while (low < high) {
+
+            
+
+        }
+
+    }
+
     pub fn run_prog() {
 
         let mut array_size = String::new();
@@ -80,7 +95,9 @@ pub mod prog4 {
         
         let mut array_data: Vec<i32> = array_string.trim().split(" ").into_iter().map(|x| x.trim().parse::<i32>().expect("Wrong value")).collect();
 
-        quicksort(&mut array_data, 0, int_array_size-1);
+        // quicksort(&mut array_data, 0, int_array_size-1);
+
+
 
         print!("kth smallest is {} and kth largest is {}", array_data[largest_smallest_index-1], array_data[int_array_size-largest_smallest_index]);
 
