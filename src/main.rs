@@ -11,8 +11,12 @@ use crate::sanchayan::Array::program_3::prog3;
 
 use crate::sanchayan::Array::program_6::prog6;
 
+use crate::sanchayan::Array::program_7::prog7;
+
+use crate::sanchayan::Array::program_8::prog8;
+
 fn main() {
 
-    prog6::run_prog();
+    prog8::run_prog();
 
 }
